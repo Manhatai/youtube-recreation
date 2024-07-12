@@ -1,0 +1,38 @@
+.thumbnail {
+  width: 100%;
+}
+
+.video-title {
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.video-author,
+.video-views {
+  font-size: 10px;
+  color: gray;
+  line-height: 15px;
+}
+
+.video-info-grid {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+
+.profile-picture {
+  width: 75%;
+  border-radius: 40px;
+  align-self: center;
+}
+
+.thumbnail-row {
+  margin-bottom: 12px;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
+}
